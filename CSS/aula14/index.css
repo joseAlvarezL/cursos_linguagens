@@ -1,0 +1,42 @@
+/*Propriedade: display*/
+
+/* A propriedade display define como um elemento HTML será exibido na página (inline, block, flex, etc.). */
+
+.borda{
+    border: 1px solid yellowgreen;
+}
+
+p{
+    display: inline;
+}
+h1{
+    display: inline;/*mesa linha*/
+}
+
+#p1{
+    display: none; /*ocultar*/
+    display: block; /*mostrar*/
+}
+#p1:hover{
+    display: none;
+}
+
+li{
+    display:  inline-block; /*Ele vai ficar em linha, mas o comportamente dele vai ser como se fosse de block*/
+    width: 30%;
+    height: 150px;
+}
+.vermelho{
+    background-color: red;
+}
+.amarelo{
+    background-color: yellow;
+}
+.verde{
+    background-color:green;
+}
+div{
+    display: inline-block;
+    width: 20%;
+    height: 150px;
+}

@@ -1,0 +1,10 @@
+/*Propriedade: max-width*/
+
+
+/* A largura ultrapassa a tela e a barra de rolagem aparece - usando width */
+h1{
+    /* width: 800px; */
+    max-width: 800px;
+}
+/* Não mostra a barra de rolagem, tem comportamento maximo usando max-width, bom para responsivo */
+

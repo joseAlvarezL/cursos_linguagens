@@ -1,0 +1,30 @@
+/* Propriedade: Padding && Criando Botão */
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    background-color: blue;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 70px;
+    border-radius: 30px;
+
+
+    /* Simplificado */
+    padding: 50px 70px 100px 10px;
+}
+
+.aiCalica{
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding: 20px 50px 20px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    /* Tira a decoração */
+}
+.aiCalica:hover{ /*Sobre em cima*/
+    background-color: blue;
+}

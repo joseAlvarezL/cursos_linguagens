@@ -1,0 +1,34 @@
+/* Propriedade: border */
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    color: #ffffff;
+    border: 5px solid black; /*Solida Reta*/
+    border: 5px dotted black; /*Pontinhos*/
+    border: 5px dashed black; /*Tracinhos*/
+    border: 5px double black; /*Dupla*/
+    border: 5px groove black; /*Efeito 3D - dentro*/
+    border: 5px ridge black; /*Efeito 3D - fora*/
+    border: 5px inset black; /*Por dentro*/
+    border: 5px outset black; /*Por Fora*/
+    border: 5px none black; /*Nenhuma*/
+    border: 5px hidden black; /*Oculta*/
+
+    border-top: 5px solid green;
+    border-left: 5px solid red;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid orange;
+
+/* Simplificado border */
+/* border-style: solid;*/
+/* border-width: 20px 1px 50px 90px; */
+/* topo, direita, fundo, esquerda */
+/* border-color: red yellow green yellow; */
+
+    border-radius: 100px;
+
+    background: black;
+    text-align: center;
+}

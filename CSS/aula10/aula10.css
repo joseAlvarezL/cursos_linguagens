@@ -1,0 +1,7 @@
+/* Propriedade: width e Height */
+.teste{
+    /* width: 100px; */
+    max-width: 600px;
+    height: 250px;
+    background-color: red;
+}

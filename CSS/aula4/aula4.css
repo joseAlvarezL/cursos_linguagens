@@ -1,0 +1,29 @@
+*{
+    padding: 20px;
+}
+
+body{
+    background: gray;
+}
+
+.center{
+    text-align: center;
+}
+
+.amarelo{
+    color: yellow;
+}
+
+.fonte30{
+    font-size: 30px;
+}
+
+#teste{
+    color: blue;
+    background: yellow;
+}
+
+h1, p{
+    color: red;
+    text-align: center;
+}

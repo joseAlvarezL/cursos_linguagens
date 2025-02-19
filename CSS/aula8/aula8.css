@@ -1,0 +1,25 @@
+/* Propriedade: margin */
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    color: white;
+    border-radius: 100px;
+    background: black;
+    text-align: center;
+
+
+    margin-top: 50px;
+    margin-right: 70px;
+    margin-bottom: 150px;
+    margin-left: 20px;
+    
+
+    margin: 30px 70px 150px 20px;
+}
+
+p{
+    margin-bottom: 60px;
+    margin-left: 20px;
+}

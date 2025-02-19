@@ -1,0 +1,26 @@
+/* Propriedade: text */
+.teste{
+    /* width: 100px; */
+    max-width: 600px;
+    height: 250px;
+    background-color: red;
+}
+
+p{
+    text-align: center;
+    /*text-align: justify;deixa text quadrado*/
+    direction: rtl; /*direita para esquerda*/
+    unicode-bidi: bidi-override;/*contrario*/
+    /* text-decoration: none; tira linha link*/
+    /* text-decoration: overline; linha sobre aquilok*/
+    text-decoration: line-through;/*Riscado*/
+    text-decoration: underline; /*Sublinhado*/
+    text-transform: uppercase; /*Maiúsculo*/
+    text-transform: lowercase; /*Minúsuclo*/
+    text-transform: capitalize; /*Primeira letra em Maiúsculo*/
+    text-indent: 50px; /*efeito de paragrafo*/
+    letter-spacing: 5px;/*espaco letras*/
+   /* line-height: 1.9px; altura da linha*/
+    word-spacing: 15px; /*espacamento entre 1 palavra e outra*/
+
+}

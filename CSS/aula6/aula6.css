@@ -1,0 +1,36 @@
+/* Propriedade: Background */
+body{
+    background-color: cornflowerblue;
+}
+.exemploBlack{
+    height: 500px;
+    background-color: gray;
+    background-image: url(../casa1029599.jpg);
+    /* Voltar para trás (../) */
+
+    /* background-size: contain; */
+    /* Ajusta a imagem para caber inteira dentro do elemento sem cortar. */
+
+    /* background-repeat:no-repeat; */
+    /* A imagem de fundo não se repete. */
+
+    /* background-repeat:repeat-x; */
+    /* Repete a imagem de fundo apenas horizontalmente. */
+
+    /* background-repeat:repeat-y; */
+    /* Repete a imagem de fundo apenas verticalmente. */
+
+    /* background-size: cover; */
+    /* A imagem cobre todo o elemento, podendo cortar partes. */
+
+    /* background-position: center; */
+    /* Centraliza a imagem no elemento. */
+
+    /* background-position: top; */  
+    /* Alinha a imagem ao topo do elemento. */
+
+
+    /* Maneira mais simples */
+    background: gray url(../casa1029599.jpg) no-repeat center;
+    background-size: cover;
+}
